@@ -1,6 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
-import { NextSeo } from 'next/seo'
+import { NextSeo } from 'next-seo'
 import Nav from '../components/nav'
 
 const Home = () => (
