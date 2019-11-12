@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import { NextSeo } from 'next/seo'
 import Nav from '../components/nav'
 
 const Home = () => (
@@ -8,7 +9,29 @@ const Home = () => (
       <title>Home</title>
       <link rel='icon' href='/favicon.ico' />
     </Head>
-
+    <NextSeo
+      title='Test Open Graph Images'
+      description='Just testing Open Graph images for Happy Bank'
+      openGraph={{
+        url: 'https://happybank.mecode.asia',
+        title: 'Test Open Graph Images',
+        description: 'Just testing Open Graph images for Happy Bank',
+        images: [
+          {
+            url: 'https://happybank.mecode.asia/opengraph1.jpg',
+            width: 1200,
+            height: 630,
+            alt: 'Open Graph 1',
+          },
+          {
+            url: 'https://happybank.mecode.asia/opengraph2.jpg',
+            width: 1200,
+            height: 1200,
+            alt: 'Open Graph 2',
+          }
+        ],
+        site_name: 'Test Open Graph Images', 
+      }}
     <Nav />
 
     <div className='hero'>
