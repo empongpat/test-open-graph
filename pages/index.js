@@ -32,6 +32,7 @@ const Home = () => (
         ],
         site_name: 'Test Open Graph Images', 
       }}
+    />
     <Nav />
 
     <div className='hero'>
