@@ -18,16 +18,10 @@ const Home = () => (
         description: 'Just testing Open Graph images for Happy Bank',
         images: [
           {
-            url: 'https://happybank.mecode.asia/images/opengraph2.jpg',
-            width: 1200,
-            height: 1200,
-            alt: 'Open Graph 2',
-          },
-          {
-            url: 'https://happybank.mecode.asia/images/opengraph1.jpg',
+            url: 'https://happybank.mecode.asia/images/opengraph.jpg',
             width: 1200,
             height: 630,
-            alt: 'Open Graph 1',
+            alt: 'Open Graph',
           }
         ],
         site_name: 'Test Open Graph Images', 
